@@ -16,6 +16,7 @@ DEFAULT_PACKAGES += \
 	kmod-leds-gpio kmod-gpio-button-hotplug \
 	kmod-phy-aquantia kmod-qca-nss-dp \
 	ath11k-firmware-ipq8074 kmod-ath11k-ahb \
+	nss-firmware-ipq8074 \
 	wpad-basic-mbedtls uboot-envtools
 
 $(eval $(call BuildTarget))
